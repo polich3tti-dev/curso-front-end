@@ -1,0 +1,60 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.container {
+    display: grid;
+    width: 98vw;
+    height: 30vw;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    margin-top: 15px;
+    font-family: sans-serif;
+}
+
+input, button {
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    display: block;
+    font-family: sans-serif;
+}
+
+button  {
+    color: crimson;
+}
+
+input { 
+    color: rgb(61, 61, 61)
+}
+
+#resultado {
+    margin-left: 110px;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 1918px) {
+    body {
+        font-size: 3rem;
+        font-family: sans-serif;
+    }
+
+    #resultado{
+        margin-left: 250px;
+    } 
+
+}
